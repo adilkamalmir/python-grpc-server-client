@@ -1,0 +1,9 @@
+server:
+    port: 57777
+    kafka_server: message-router-kafka:9092
+    kafka_topic: adiltest
+    output_file: '/tmp/server_tmp'
+client:
+    server_ip: onap-grpc-collector
+    server_port: 57777
+    input_file: 'sample/sample_input.data'

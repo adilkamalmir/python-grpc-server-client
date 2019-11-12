@@ -1,0 +1,528 @@
+{
+    "node_id_str": "tor3-tatooine",
+    "subscription_id_str": "NSO-POC",
+    "encoding_path": "openconfig-network-instance:network-instances/network-instance/protocols/protocol/bgp/neighbors/neighbor/state",
+    "collection_id": "3450897",
+    "collection_start_time": "1567621425009",
+    "msg_timestamp": "1567621425018",
+    "data_json": [
+        {
+            "timestamp": "1567621425017",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "67.70.219.74"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpMESH",
+                "neighbor-address": "67.70.219.74",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "remove-private-as": "0",
+                "send-community": "NONE",
+                "description": "iBGP IPv4 session to iref3-rohan (Cisco ASR)",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "1",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "2",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "1665707",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425019",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "67.70.219.79"
+                }
+            ],
+            "content": {
+                "neighbor-address": "67.70.219.79",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "tor-1.qa-site1",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "3",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "12",
+                        "NOTIFICATION": "1"
+                    },
+                    "received": {
+                        "UPDATE": "25190",
+                        "NOTIFICATION": "1"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425020",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "67.70.219.84"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpevpnMESH",
+                "neighbor-address": "67.70.219.84",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "bl1-tatooine",
+                "session-state": "ACTIVE",
+                "last-established": "0",
+                "established-transitions": "0",
+                "messages": {
+                    "sent": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425021",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "67.70.219.85"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpevpnMESH",
+                "neighbor-address": "67.70.219.85",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "bl2-tatooine",
+                "session-state": "ACTIVE",
+                "last-established": "0",
+                "established-transitions": "0",
+                "messages": {
+                    "sent": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425023",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "67.70.219.86"
+                }
+            ],
+            "content": {
+                "neighbor-address": "67.70.219.86",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "tor-2.qa-site1",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "3",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "12",
+                        "NOTIFICATION": "1"
+                    },
+                    "received": {
+                        "UPDATE": "8777",
+                        "NOTIFICATION": "1"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425024",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "99.99.99.98"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpIXIA",
+                "neighbor-address": "99.99.99.98",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "remove-private-as": "0",
+                "send-community": "NONE",
+                "description": "BGP Flapping Telemetry",
+                "session-state": "IDLE",
+                "last-established": "1567621425",
+                "established-transitions": "2245",
+                "supported-capabilities": [
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "6714",
+                        "NOTIFICATION": "3"
+                    },
+                    "received": {
+                        "UPDATE": "2245",
+                        "NOTIFICATION": "1906"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425026",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "172.16.2.88"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpevpnMESH",
+                "neighbor-address": "172.16.2.88",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "tor1-tatooine",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "1",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "7",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "3535",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425027",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "172.16.2.89"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpevpnMESH",
+                "neighbor-address": "172.16.2.89",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "description": "tor2-tatooine",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "1",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "7",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "16858",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425028",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "172.19.0.38"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpDRLEAF",
+                "neighbor-address": "172.19.0.38",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "remove-private-as": "0",
+                "send-community": "NONE",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "1",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "1652773",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "2",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425030",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "172.19.0.39"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpDRLEAF",
+                "neighbor-address": "172.19.0.39",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "remove-private-as": "0",
+                "send-community": "NONE",
+                "session-state": "ESTABLISHED",
+                "last-established": "1567621424",
+                "established-transitions": "1",
+                "supported-capabilities": [
+                    "ROUTE_REFRESH",
+                    "ASN32",
+                    "MPBGP"
+                ],
+                "messages": {
+                    "sent": {
+                        "UPDATE": "1652773",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "2",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        },
+        {
+            "timestamp": "1567621425031",
+            "keys": [
+                {
+                    "name": "default"
+                },
+                {
+                    "identifier": "BGP"
+                },
+                {
+                    "name": "default"
+                },
+                {
+                    "neighbor-address": "172.19.1.128"
+                }
+            ],
+            "content": {
+                "peer-group": "peergrpVBNGTESTING",
+                "neighbor-address": "172.19.1.128",
+                "enabled": true,
+                "peer-as": 64577,
+                "peer-type": "INTERNAL",
+                "remove-private-as": "0",
+                "send-community": "NONE",
+                "description": "vbng1-naboo",
+                "session-state": "ACTIVE",
+                "last-established": "0",
+                "established-transitions": "0",
+                "messages": {
+                    "sent": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    },
+                    "received": {
+                        "UPDATE": "0",
+                        "NOTIFICATION": "0"
+                    }
+                },
+                "queues": {
+                    "input": 0,
+                    "output": 0
+                },
+                "dynamically-configured": false
+            }
+        }
+    ],
+    "collection_end_time": "1567621425040"
+}

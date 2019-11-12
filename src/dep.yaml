@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-stream-python
+  labels:
+    app: grpc-stream-python
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grpc-stream-python
+  template:
+    metadata:
+      labels:
+        app: grpc-stream-python
+    spec:
+      containers:
+      - name: grpc-stream-python
+        image: registry-dev.nso.lab-services.ca/nso-images/grpc-stream-python:latest
+        command:
+        - /bin/bash
+        - -c
+        - >
+          for i in {1..5}; do python client.py; done;
+          tail -f /dev/null;
